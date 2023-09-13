@@ -45,6 +45,8 @@ Visualization and business intelligence are executed using Looker, integrated ti
 ### Data Schema Definition
 For the Uber data analytics project, the Star Schema was chosen, a renowned data modeling technique, to ensure swift querying and ease of use, especially when interfacing with BI (Business Intelligence) tools like Looker.
 
+![uber data model (2)](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/ac9ea719-a597-465d-a756-0ffc6d2a4f18)
+
 ### **Why Star Schema?**
 - **Simplicity**: It's easy to understand, making it approachable for users who want to run ad-hoc queries.
 - **Performance**: Designed for fast query performance. This is crucial when dealing with large datasets, like Uber's ride data.
@@ -64,7 +66,7 @@ Orbiting the fact table are multiple **Dimension Tables**. These contain descrip
 
 By structuring the data in this manner, the stage is set for insightful analytics, ensuring that each query on the data can be executed swiftly and can pull out meaningful insights.
 
-![uber data model (2)](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/ac9ea719-a597-465d-a756-0ffc6d2a4f18)
+
 
 
 ## Setup Instructions for Mage
