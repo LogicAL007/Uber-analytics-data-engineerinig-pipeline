@@ -20,6 +20,11 @@ Welcome to the Uber Data Analytics pipeline. This repository provides an overvie
 
 The pipeline focuses on transforming raw Uber data into actionable insights using a series of modern cloud-based tools and services.
 
+## Access the Data
+You can access the publicly available `data.csv` file via the following URL:
+
+[click here](https://storage.googleapis.com/uber_dataset1/uber_data.csv)
+
 ## Architecture
 ![Blank diagram](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/f26b9a37-27a9-4ab6-8105-c2f709aa427a)
 
@@ -60,11 +65,6 @@ Post-transformation, our data resides in Google BigQuery, a serverless and highl
 
 ### Looker
 Visualization and business intelligence are executed using Looker, integrated tightly with BigQuery post Google's acquisition. It serves as our platform for dashboards, reports, and ad-hoc analyses.
-
-## Access the Data
-You can access the publicly available `data.csv` file via the following URL:
-
-[click here](https://storage.googleapis.com/uber_dataset1/uber_data.csv)
 
 ## Setup Instructions
 
