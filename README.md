@@ -18,9 +18,10 @@ Welcome to the Uber Data Analytics pipeline. This repository provides an overvie
 
 ## Overview
 
-the pipeline focuses on transforming raw Uber data into actionable insights using a series of modern cloud-based tools and services.
+The pipeline focuses on transforming raw Uber data into actionable insights using a series of modern cloud-based tools and services.
 
 ## Architecture
+![Blank diagram](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/f26b9a37-27a9-4ab6-8105-c2f709aa427a)
 
 ### Star Schema Transformation
 We utilize the Star Schema, a popular data modeling technique, to organize our data into facts and dimensions. This structure is specially designed for query performance and ease of use in BI tools.
