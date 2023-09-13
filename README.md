@@ -28,6 +28,20 @@ You can access the publicly available `data.csv` file via the following URL:
 ## Architecture
 ![Blank diagram](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/f26b9a37-27a9-4ab6-8105-c2f709aa427a)
 
+# Tools Used
+
+### Google Cloud Storage
+The processed data is stored in GCS (Google Cloud Storage) buckets, ensuring its availability for further processing or analytics. It's an efficient intermediary stage between raw data sources and our analytics tools.
+
+### Mage.ai & Google Compute Engine
+[Mage.ai](https://www.mage.ai/) is our chosen tool for managing and orchestrating the data pipeline. Running on Google Compute Engine (GCE), Mage.ai provides the scalability required for large-scale data processing.
+
+### BigQuery
+Post-transformation, our data resides in Google BigQuery, a serverless and highly scalable data warehouse. Here, we can perform fast queries, advanced analytics, and even delve into machine learning tasks.
+
+### Looker
+Visualization and business intelligence are executed using Looker, integrated tightly with BigQuery post Google's acquisition. It serves as our platform for dashboards, reports, and ad-hoc analyses.
+
 ### Data Schema Definition
 For the Uber data analytics project, the Star Schema was chosen, a renowned data modeling technique, to ensure swift querying and ease of use, especially when interfacing with BI (Business Intelligence) tools like Looker.
 
@@ -52,21 +66,8 @@ By structuring the data in this manner, the stage is set for insightful analytic
 
 ![uber data model (2)](https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/ac9ea719-a597-465d-a756-0ffc6d2a4f18)
 
-# Tools Used
 
-### Google Cloud Storage
-The processed data is stored in GCS (Google Cloud Storage) buckets, ensuring its availability for further processing or analytics. It's an efficient intermediary stage between raw data sources and our analytics tools.
-
-### Mage.ai & Google Compute Engine
-[Mage.ai](https://www.mage.ai/) is our chosen tool for managing and orchestrating the data pipeline. Running on Google Compute Engine (GCE), Mage.ai provides the scalability required for large-scale data processing.
-
-### BigQuery
-Post-transformation, our data resides in Google BigQuery, a serverless and highly scalable data warehouse. Here, we can perform fast queries, advanced analytics, and even delve into machine learning tasks.
-
-### Looker
-Visualization and business intelligence are executed using Looker, integrated tightly with BigQuery post Google's acquisition. It serves as our platform for dashboards, reports, and ad-hoc analyses.
-
-## Setup Instructions
+## Setup Instructions for Mage
 
 To set up `mage.ai` on a Google Compute Engine instance(click SSH), follow the steps below:
 
