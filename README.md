@@ -13,8 +13,8 @@ Welcome to the Uber Data Analytics pipeline. This repository provides an overvie
 - [Extract](#extract)
 - [Transform](#transform)
 - [Load](#load)
-- [bigquery dataset](#bigquery)
-- [License](#license)
+
+
 
 ## Overview
 
