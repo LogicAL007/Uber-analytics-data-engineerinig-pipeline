@@ -123,3 +123,6 @@ When we want to send our data, we look at our settings in the `io_config.yaml` f
 In order to provide a comprehensive view of the data and make it accessible for analysis, an aggregated table called tbl_analytics was created. This table essentially "flattens" the data, pulling in details from all the dimensional tables and centralizing it for easier querying.
 
 <img width="1280" alt="Screenshot 2023-09-13 001942" src="https://github.com/LogicAL007/Uber-analytics-data-engineerinig-pipeline/assets/122959675/d4ece934-e466-494a-901f-39b87528bbe4">
+
+
+## visualization. . .
