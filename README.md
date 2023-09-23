@@ -101,6 +101,7 @@ sudo pip3 install pandas
 mage start uber_project
 ```
 
+Note: a common mistake is using _https_ instead of _http_, be sure to check that.
 # The Pipeline
 
 ## Extract
