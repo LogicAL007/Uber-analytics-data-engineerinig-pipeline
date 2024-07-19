@@ -8,19 +8,21 @@ if 'test' not in globals():
 
 
 @data_loader
-def load_data_from_api(*args, **kwargs):
+def load_data_from_api():
     """
-    Template for loading data from API
+    this function loads data from google cloud storage into a dataframe
+
+    :return: A dataframe of the uber data
     """
-    url = ''
-    response = requests.get("https://storage.googleapis.com/uber_dataset1/uber_data.csv")
+    url = 'https://storage.googleapis.com/uber_dataset1/uber_data.csv'
+    response = requests.get(url)
 
     return pd.read_csv(io.StringIO(response.text), sep=',')
 
 
 @test
-def test_output(output, *args) -> None:
+def test_output(output) -> None:
     """
-    Template code for testing the output of the block.
+    This function is the code for testing the output of the block.
     """
-    assert output is not None, 'The output is undefined'
+    assert output is not None
